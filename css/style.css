@@ -12,29 +12,34 @@
 	align-items: center;
 }
 
-.channel, .channel-selected{
-	margin: 10px auto;
+.channel{
+	margin: 4px;
 	color: white;
 	font-weight: bold;
 }
 
 .border-channel{
 	margin-top: 20px;
-	border: 4px solid white;
+	border: 2px solid white;
 	border-radius: 15px;
-	padding: 0px 6px 0px 6px;
+	padding: 2px;
+	color: white;
+	font-weight: bold;
 }
 
 .channel-selected{
 	background-color: #5A5A5A;
-	padding: 16px 16px 10px 16px;
+	padding: 10px;
 	border-radius: 15px;
 }
 
 .channel-unselected{
-	background-color: #310D31;
+	background-color: #583A5A;
 	padding: 16px 16px 10px 16px;
 	border-radius: 15px;
+	color: white;
+	margin-top: 10px;
+	font-weight: bold;
 }
 
 .salon-container{
@@ -78,7 +83,7 @@
 
 .chat-container{
 	width: 100%;
-	min-width: 500px;
+	min-width: 500px !important;
 	height: 100vh;
 	overflow: scroll;
 }
@@ -86,7 +91,7 @@
 .title-chat{
 	box-shadow: 12px 1px 16px 2px #ACAFC9;
 	width: 100%;
-	min-width: 500px;
+	min-width: 1000px;
 	padding: 10px;
 }
 
