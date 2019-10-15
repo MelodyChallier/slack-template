@@ -3,8 +3,7 @@
 }
 
 .channel-container{
-	width: 10%;
-	min-width: 160px;
+	padding: 16px;
 	height: 100vh;
 	background-color: #310D31;
 	display: flex;
@@ -49,8 +48,8 @@ h4{
 .salon-container{
 	background-color: #4A184B;
 	color: white;
-	width: 15%;
-	min-width: 250px;
+	min-width: 220px;
+	flex-shrink: 0;
 	padding: 20px;
 }
 
@@ -86,10 +85,14 @@ h4{
 }
 
 .chat-container{
+	flex-grow: 1;
 	width: 100%;
-	min-width: 500px !important;
 	height: 100vh;
 	overflow: scroll;
+}
+
+.chat{
+	margin-top: 80px;
 }
 
 .title-chat{
@@ -97,6 +100,9 @@ h4{
 	width: 100%;
 	min-width: 1000px;
 	padding: 10px;
+	position: fixed;
+	z-index: 1000;
+	background-color: white;
 }
 
 .title-chat h2{
@@ -125,6 +131,30 @@ h4{
 	color: #55AD77;
 }
 
+.message-placeholder{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+input{
+	border: 1px solid grey;
+	padding: 5px;
+	margin: auto;
+	color: grey;
+	width: 98%;
+}
+
 p{
 	margin: 0 !important;
+}
+
+@media (max-width: 760px){
+	h4, h3, h2, p, li, .fa-plus{
+		font-size: 0.9em !important;
+	}
+
+	img{
+		width: 60px !important;
+	}
 }
