@@ -1,0 +1,109 @@
+.main-container{
+	display: flex;
+}
+
+.channel-container{
+	width: 10%;
+	min-width: 160px;
+	height: 100vh;
+	background-color: #310D31;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.channel, .channel-selected{
+	margin: 10px auto;
+	color: white;
+	font-weight: bold;
+}
+
+.border-channel{
+	margin-top: 20px;
+	border: 4px solid white;
+	border-radius: 15px;
+	padding: 0px 6px 0px 6px;
+}
+
+.channel-selected{
+	background-color: #5A5A5A;
+	padding: 16px 16px 10px 16px;
+	border-radius: 15px;
+}
+
+.channel-unselected{
+	background-color: #310D31;
+	padding: 16px 16px 10px 16px;
+	border-radius: 15px;
+}
+
+.salon-container{
+	background-color: #4A184B;
+	color: white;
+	width: 15%;
+	min-width: 250px;
+	padding: 20px;
+}
+
+.top-salon h3{
+	font-size: 1.2em;
+	font-weight: 200;
+}
+
+.title-salon{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.title-salon h3{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.name-salon{
+	display: flex;
+	width: 100px;
+}
+
+.fab, .fas{
+	padding-right: 10px;
+}
+
+.fa-circle{
+	font-size: 0.7em;
+}
+
+.chat-container{
+	width: 100%;
+	height: 100vh;
+	overflow: scroll;
+}
+
+.title-chat{
+	box-shadow: 12px 1px 16px 2px #ACAFC9;
+	width: 100%;
+	padding: 10px;
+}
+
+.title-chat h2{
+	font-weight: bold;
+}
+
+.message{
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.apercu-message{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+
+.apercu-message img{
+	width: 80px;
+	border-radius: 10%;
+	margin: 0 20px 0 20px;
+}
