@@ -63,19 +63,22 @@
 
 .name-salon{
 	display: flex;
+	align-items: center;
 	width: 100px;
+	margin-bottom: 10px;
 }
 
 .fab, .fas{
 	padding-right: 10px;
 }
 
-.fa-circle{
+.fa-circle, .fa-lock{
 	font-size: 0.7em;
 }
 
 .chat-container{
 	width: 100%;
+	min-width: 500px;
 	height: 100vh;
 	overflow: scroll;
 }
@@ -83,6 +86,7 @@
 .title-chat{
 	box-shadow: 12px 1px 16px 2px #ACAFC9;
 	width: 100%;
+	min-width: 500px;
 	padding: 10px;
 }
 
@@ -93,7 +97,7 @@
 .message{
 	display: flex;
 	align-items: center;
-	margin-top: 10px;
+	margin: 40px 0;
 }
 
 .apercu-message{
@@ -106,4 +110,12 @@
 	width: 80px;
 	border-radius: 10%;
 	margin: 0 20px 0 20px;
+}
+
+.green{
+	color: #55AD77;
+}
+
+p{
+	margin: 0 !important;
 }
