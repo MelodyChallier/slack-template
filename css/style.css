@@ -18,6 +18,10 @@
 	font-weight: bold;
 }
 
+h4{
+	margin: 0 !important;
+}
+
 .border-channel{
 	margin-top: 20px;
 	border: 2px solid white;
@@ -35,7 +39,7 @@
 
 .channel-unselected{
 	background-color: #583A5A;
-	padding: 16px 16px 10px 16px;
+	padding: 10px;
 	border-radius: 15px;
 	color: white;
 	margin-top: 10px;
