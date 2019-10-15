@@ -61,6 +61,7 @@ h4{
 .title-salon{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	margin-top: 30px;
 }
 
@@ -147,6 +148,10 @@ input{
 }
 
 p{
+	margin: 0 !important;
+}
+
+h3{
 	margin: 0 !important;
 }
 
